@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -97,15 +98,30 @@ body {
 }
 
 .contactInfo ul li .icon {
-  display: inline-block;
-  width: 30px;
-  font-size: 18px;
-  color: #03a9f4;
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
 }
 
 .contactInfo ul li span {
     color: #fff;
     font-weight: 300;
+}
+
+.contactInfo.education ul li {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+    color: #03a9f4;
+    font-weight: 800;
+}
+
+.contactInfo.education h4 {
+    color: #fff;
+    font-weight: 400;
 }
 
 .container .right_Side {
