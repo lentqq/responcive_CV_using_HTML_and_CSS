@@ -117,12 +117,13 @@ body {
     font-weight: 800;
 }
 
-/* .contactInfo .education h4:nth-child(2) {
+.contactInfo.education h4:nth-child(2) {
     color: #fff;
     font-weight: 500;
-} */
+}
 
 .contactInfo.education h4 {
+    margin: 8px;
     color: #fff;
     font-weight: 200;
 }
