@@ -6,24 +6,21 @@ Responsive CV application, build with __HTML5__ and __CSS3__ designed to introdu
 
 ## Features
 
-* Аfter the __"greeting"__ entter your name.
-* In the next field, enter what will be your focus today ... and that's it.
-* __Greetings__ and __images__ are changed dynamically, depending on in which part of the day is it. 
+*  Read everything about me.
+* Click on the __links__ to contact me or view my __GitHub__ profile.
 
 ## Download
 
 Just download or clone the repo:  
 ```
-$ git clone https://github.com/lentqq/dynamic-landing-page.git
+$ git clone https://github.com/lentqq/responsive_CV_using_HTML_and_CSS.git
 ```
 ## How To View
 
 * __Locally__: Start "Live Server" in __Visual Studio Code__.
-* __On the Web__: https://be-focused.000webhostapp.com/
+* __On the Web__: In progress on __AWS__...
 
 ## Tech Used
-
- * ![](./public/icons/jsIcon.png)  [JavaScript](https://developer.mozilla.org/bg/docs/Web/JavaScript)
 
  * ![](./public/icons/htmlIcon.png)  [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 
@@ -31,7 +28,7 @@ $ git clone https://github.com/lentqq/dynamic-landing-page.git
 
   * Fonts from: [Google Fonts](https://fonts.google.com/)
 
-  * Icons from: [Icons-For-Free](https://Icons-For-Free.com)
+  * Icons from: [Font Awesome](https://fontawesome.com/start)
   
 ## License
 
