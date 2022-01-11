@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,67 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.text:hover {
+    display: inline-block;
+    position: relative;
+    color: #03a9f4;
+}
+
+a .text:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #03a9f4;
+    transition: transform 0.35s ease-out;
+}
+
+a .text:hover:after {
+    transform: scaleX(1);
+}
+
+/* a::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+a:hover::after,
+a:focus::after {
+    transform: scale(1);
+} */
+
+.right_Side .box a h4:hover {
+    display: inline-block;
+    position: relative;
+    color: #003147;
+}
+
+.right_Side .box a h4:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #003147;
+    transition: transform 0.35s ease-out;
+    transform-origin: center;
+}
+
+.right_Side .box a h4:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
 }
 
 .container {
@@ -252,12 +314,15 @@ p {
     .about .box {
         flex-direction: column;
     }
+
     .about .box .year_company {
         margin-bottom: 5px;
     }
+
     .interests ul {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .skills .box {
         grid-template-columns: repeat(1, 1fr);
     }
