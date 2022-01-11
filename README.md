@@ -1,4 +1,4 @@
-# dynamic_landing_page
+# responsive_CV
 
 ## Overview
 
