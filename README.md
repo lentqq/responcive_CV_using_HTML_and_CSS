@@ -4,7 +4,7 @@
 
 Responsive CV application, build with __HTML5__ and __CSS3__ designed to introduce me to my future employers and at the same time to practice my HTML and CSS skills.
 
-## Responsive_CV features
+## Responsive_CV  features
 
 *  Read everything about me.
 * Click on the __links__  in my __CV__ to contact me or view my __GitHub__ profile.
