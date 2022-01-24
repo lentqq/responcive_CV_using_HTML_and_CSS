@@ -20,7 +20,7 @@ a {
 }
 
 a .text:hover {
-    display:contents;
+    display: contents;
     position: relative;
     color: #03a9f4;
 }
