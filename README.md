@@ -22,7 +22,7 @@ $ git clone https://github.com/lentqq/responsive_CV_using_HTML_and_CSS.git
 ## How To View
 
 * __Locally__: Start "Live Server" in __Visual Studio Code__.
-* __On the Web__: Hosted by [AWS](//main.dihlhc5ezs6sy.amplifyapp.com/){:target="_blank"}
+* __On the Web__: Hosted by [AWS](//main.dihlhc5ezs6sy.amplifyapp.com/)
 
 ## Tech Used
 
